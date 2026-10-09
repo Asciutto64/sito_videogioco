@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oggetti</title>
+    <link rel="stylesheet" href="style_oggetti.css">
+    <link rel="stylesheet" href="style_main.css">
 </head>
 <body>
+     <div class="contenitore-principale">            
+        <header class="contenitore-logo-titolo">
+            <div class="header-intestazione">
+                 <a href="main.html"><img class="logo" src="satisfy.jpg" alt="Logo del videogioco Satisfy"></a>
+                 <h1 class="titolo">Satisfy: il nuovo VRMMORPG più realistico del momento</h1>
+            </div>
+        </header>
     <section>
-        <h2>Gradi di rarità delgli oggetti</h2>
+        <h2>Gradi di rarità degli oggetti</h2>
         <table> 
             <thead>
                 <tr>
@@ -18,48 +27,47 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Comune</td>
-                    <td>Bianco</td>
-                    <td>x1.0</td>
+                <tr class="rarita-comune">
+                    <td class="grado">Comune</td>
+                    <td><span class="etichetta">Bianco</span></td>
+                    <td class="statistica">x1.0</td>
                     <td>Oggetti semplici, facili da trovare ovunque</td>
                 </tr>
 
-                <tr>
-                    <td>Non comune</td>
-                    <td>Verde</td>
-                    <td>x1.2</td>
+                <tr class="rarita-non-comune">
+                    <td class="grado">Non comune</td>
+                    <td><span class="etichetta">Verde</span></td>
+                    <td class="statistica">x1.2</td>
                     <td>Statistica extra, solitamente droppati da mostri di livello medio/basso</td>
                 </tr>
                 
-                <tr>
-                    <td>Raro</td>
-                    <td>Blu</td>
-                    <td>x1.5</td>
+                <tr class="rarita-raro">
+                    <td class="grado">Raro</td>
+                    <td><span class="etichetta">Blu</span></td>
+                    <td class="statistica">x1.5</td>
                     <td>Iniziano ad avere effetti speciali o abilità.</td>
                 </tr>
                 
-                <tr>
-                    <td>Epico</td>
-                    <td>Viola</td>
-                    <td>x2.0</td>
+                <tr class="rarita-epico">
+                    <td class="grado">Epico</td>
+                    <td><span class="etichetta">Viola</span></td>
+                    <td class="statistica">x2.0</td>
                     <td>Oggetti potenti, solitamente legati ai Boss.</td>
                 </tr>
 
-            <tr">
-                <td>Leggendario</td>
-                <td>Oro</td>
-                <td>x4.0</td>
-                <td>Estremamente difficili da forgiare o trovare.</td>
-            </tr>
+                <tr class="rarita-leggendario">
+                    <td class="grado">Leggendario</td>
+                    <td><span class="etichetta">Oro</span></td>
+                    <td class="statistica">x4.0</td>
+                    <td>Estremamente difficili da forgiare o trovare.</td>
+                </tr>
 
-            <tr>
-                <td>Mitico</td>
-                <td>Rosso / Scarlatto</td>
-                <td>x8.0+</td>
-                <td>Unici nel loro genere. Capaci di alterare l'equilibrio del gioco.</td>
-            </tr>
-
+                <tr class="rarita-mitico">
+                    <td class="grado">Mitico</td>
+                    <td><span class="etichetta">Scarlatto</span></td>
+                    <td class="statistica">x8.0+</td>
+                    <td>Unici nel loro genere. Capaci di alterare l'equilibrio del gioco.</td>
+                </tr>
             </tbody>
         </table>
     </section>
